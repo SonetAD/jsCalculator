@@ -61,13 +61,13 @@ body {
 }
 
 #result {
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 40px;
 }
 
 .final {
   font-size: 300px;
-  font-weight: bolder;
+  font-weight: bold;
   font-style: italic;
   color: darkblue;
 }
