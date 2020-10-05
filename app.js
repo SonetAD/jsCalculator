@@ -14,7 +14,9 @@ doclist.forEach(function (n) {
       n.textContent == '-'
     ) {
       symbollist.push(n.textContent);
-      valarray.push(Number(temnum));
+      if (temnum.length != 0) {
+        valarray.push(Number(temnum));
+      }
       temnum = '';
       document.querySelector(
         '.output'
@@ -29,6 +31,7 @@ doclist.forEach(function (n) {
       if (temnum.length != 0) {
         valarray.push(Number(temnum));
       }
+
       for (let i = 0; i < valarray.length; i++) {
         if (i == 0) {
           output += valarray[i];
@@ -48,6 +51,8 @@ doclist.forEach(function (n) {
       document.querySelector(
         '.output'
       ).innerHTML = `<h1 class='final' id='result'>${output}</h1>`;
+      temnum = '';
+      output = 0;
     } else {
       temnum += String(n.textContent);
       document.querySelector(

@@ -12,11 +12,11 @@ This is a simple calculator application.It has been developed with HTML5,CSS3 &a
 4. Division
 
 - It can take multiple inputs once a time and can calculate all of therm.For example: 3\*6+77-33/5+.-...
+- You can do any calculations with your previous output.
 
 ## Limitations:
 
 - There are no brackets buttons here yet.
-- You can't do any calculations with your output.
 
 ### Developer:
 

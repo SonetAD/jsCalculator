@@ -45,7 +45,7 @@ body {
   color: white;
   transform: translateX(5px);
   cursor: pointer;
-  transition: all 0.5s;
+  transition: all 0.1s;
 }
 
 .keylist button:hover {
@@ -69,4 +69,17 @@ body {
   font-size: 300px;
   font-weight: bolder;
   font-style: italic;
+  color: darkblue;
+}
+
+/* responsive design   */
+
+@media (max-width: 768px) {
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  .keylist button {
+    width: 75px;
+    height: 75px;
+  }
 }
